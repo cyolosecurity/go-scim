@@ -1,6 +1,7 @@
 package json
 
 import (
+	"errors"
 	"fmt"
 	"strconv"
 	"strings"
@@ -53,6 +54,9 @@ func DeserializeProperty(json []byte, property prop.Property, allowElementForArr
 	// spaces. Hence, simply use scanNext to read in the first byte, then use stateBeginValue to forcibly set the
 	// state and op code. This is necessary since we are dealing with potentially just a fragment of valid JSON.
 	state.scanNext()
+	if len(state.data) == 0 {
+		return errors.New("empty state")
+	}
 	state.opCode = stateBeginValue(&state.scan, state.data[0])
 
 	if !property.Attribute().MultiValued() {
