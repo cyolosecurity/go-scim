@@ -1,4 +1,4 @@
-module github.com/cyolosecurity/go-scim/pkg/v2
+module github.com/cyolosecurity/go-scim
 
 go 1.24.3
 
