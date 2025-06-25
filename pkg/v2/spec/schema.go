@@ -19,7 +19,7 @@ const CoreSchemaId = "core"
 // move to treat Schema as just another resource.
 // See also:
 //
-//	issue https://github.com/imulab/go-scim/issues/40
+//	issue https://github.com/cyolosecurity/go-scim/issues/40
 type Schema struct {
 	id          string
 	name        string

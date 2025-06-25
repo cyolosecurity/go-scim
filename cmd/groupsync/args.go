@@ -1,7 +1,7 @@
 package groupsync
 
 import (
-	"github.com/imulab/go-scim/cmd/internal/args"
+	"github.com/cyolosecurity/go-scim/cmd/internal/args"
 	"github.com/urfave/cli/v2"
 )
 

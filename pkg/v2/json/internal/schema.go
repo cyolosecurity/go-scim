@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/imulab/go-scim/pkg/v2/prop"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/prop"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 )
 
 // SerializableSchema is the json.Serializable wrapper for spec.Schema.

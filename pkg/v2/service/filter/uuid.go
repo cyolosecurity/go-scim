@@ -3,9 +3,9 @@ package filter
 import (
 	"context"
 	"github.com/google/uuid"
-	"github.com/imulab/go-scim/pkg/v2/annotation"
-	"github.com/imulab/go-scim/pkg/v2/prop"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/annotation"
+	"github.com/cyolosecurity/go-scim/pkg/v2/prop"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 )
 
 // UUIDFilter returns a ByProperty filter that generates a UUID for string property that is annotated with @UUID. The

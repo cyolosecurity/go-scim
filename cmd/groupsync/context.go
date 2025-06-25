@@ -2,12 +2,12 @@ package groupsync
 
 import (
 	"context"
-	gs "github.com/imulab/go-scim/cmd/internal/groupsync"
-	scimmongo "github.com/imulab/go-scim/mongo/v2"
-	"github.com/imulab/go-scim/pkg/v2/db"
-	"github.com/imulab/go-scim/pkg/v2/groupsync"
-	"github.com/imulab/go-scim/pkg/v2/service/filter"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	gs "github.com/cyolosecurity/go-scim/cmd/internal/groupsync"
+	scimmongo "github.com/cyolosecurity/go-scim/mongo/v2"
+	"github.com/cyolosecurity/go-scim/pkg/v2/db"
+	"github.com/cyolosecurity/go-scim/pkg/v2/groupsync"
+	"github.com/cyolosecurity/go-scim/pkg/v2/service/filter"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 	"github.com/rs/zerolog"
 	"github.com/streadway/amqp"
 	"go.mongodb.org/mongo-driver/mongo"

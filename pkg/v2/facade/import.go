@@ -1,11 +1,11 @@
 package facade
 
 import (
-	"github.com/imulab/go-scim/pkg/v2/crud"
-	"github.com/imulab/go-scim/pkg/v2/crud/expr"
-	"github.com/imulab/go-scim/pkg/v2/facade/internal"
-	"github.com/imulab/go-scim/pkg/v2/prop"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/crud"
+	"github.com/cyolosecurity/go-scim/pkg/v2/crud/expr"
+	"github.com/cyolosecurity/go-scim/pkg/v2/facade/internal"
+	"github.com/cyolosecurity/go-scim/pkg/v2/prop"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 	"reflect"
 	"time"
 )

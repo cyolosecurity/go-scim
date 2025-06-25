@@ -3,7 +3,7 @@ package prop
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 	"hash/fnv"
 )
 

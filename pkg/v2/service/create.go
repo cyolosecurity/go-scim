@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/imulab/go-scim/pkg/v2/db"
-	"github.com/imulab/go-scim/pkg/v2/json"
-	"github.com/imulab/go-scim/pkg/v2/prop"
-	"github.com/imulab/go-scim/pkg/v2/service/filter"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/db"
+	"github.com/cyolosecurity/go-scim/pkg/v2/json"
+	"github.com/cyolosecurity/go-scim/pkg/v2/prop"
+	"github.com/cyolosecurity/go-scim/pkg/v2/service/filter"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 	"io"
 	"io/ioutil"
 )

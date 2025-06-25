@@ -2,9 +2,9 @@ package crud
 
 import (
 	"fmt"
-	"github.com/imulab/go-scim/pkg/v2/crud/expr"
-	"github.com/imulab/go-scim/pkg/v2/prop"
-	"github.com/imulab/go-scim/pkg/v2/spec"
+	"github.com/cyolosecurity/go-scim/pkg/v2/crud/expr"
+	"github.com/cyolosecurity/go-scim/pkg/v2/prop"
+	"github.com/cyolosecurity/go-scim/pkg/v2/spec"
 )
 
 // Find the actual sort target inferred by the sortBy parameter. 'resource' points to the Resource whose value is being

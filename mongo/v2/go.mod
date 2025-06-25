@@ -1,7 +1,7 @@
-module github.com/imulab/go-scim/mongo/v2
+module github.com/cyolosecurity/go-scim/mongo/v2
 
 require (
-	github.com/imulab/go-scim/pkg/v2 v2.2.0
+	github.com/cyolosecurity/go-scim/pkg/v2 v2.2.0
 	github.com/ory/dockertest v3.3.5+incompatible
 	github.com/stretchr/testify v1.10.0
 	go.mongodb.org/mongo-driver v1.2.0
@@ -14,6 +14,7 @@ require (
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
@@ -25,17 +26,21 @@ require (
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/opencontainers/runc v1.0.0-rc5 // indirect
+	github.com/pkg/errors v0.8.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/tidwall/pretty v1.0.0 // indirect
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
 	github.com/xdg/stringprep v1.0.0 // indirect
-	golang.org/x/net v0.0.0-20191003171128-d98b1b443823 // indirect
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
-	golang.org/x/sys v0.0.0-20191005200804-aed5e4c7ecf9 // indirect
-	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/crypto v0.39.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.26.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/imulab/go-scim/pkg/v2 => ../../pkg/v2
+replace github.com/cyolosecurity/go-scim/pkg/v2 => ../../pkg/v2
 
 go 1.24
 
